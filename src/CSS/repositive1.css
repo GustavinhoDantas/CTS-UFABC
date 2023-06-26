@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+@media (max-width: 620px){
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('/src/Imagem/Azulzin.png');
+    overflow-x: hidden;
+    overflow-y: hidden; 
+   
+}
+
+
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    position:  relative;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:4vh;
+}
+
+.tituloSub{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    text-align: center;
+    position:  relative;
+    top: -15px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:4vh;
+
+}
+
+.voltar{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    left: -60px;
+    margin:4vh;
+    height: 75px;
+    width: 150px;
+
+}
+
+.avancar{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    left: 235px;
+    margin:4vh;
+    height: 75px;
+    width: 150px;
+}
+
+.telégrafo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position:  relative;
+    top: -30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:4vh;
+}
+
+.telégrafoDados{
+    font-family: 'Abhaya Libre', serif;
+    list-style: none;
+    font-size: 25px;
+    text-align:center;
+    position:  relative;
+    top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    margin:4vh;
+}
+
+.tel{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position:  relative;
+    top: -80px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:4vh;
+}
+
+.telDados{
+    font-family: 'Abhaya Libre', serif;
+    list-style: none;
+    font-size: 25px;
+    text-align:center;
+    position:  relative;
+    top: -110px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    margin:4vh;
+}
+
+.start{
+    position: absolute;
+    top: 500px;
+    right: 0;
+    bottom: 0;
+    left: 80px;
+    margin:4vh;
+    height: 75px;
+    width: 150px;
+}
+
+
+}
